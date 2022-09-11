@@ -1,6 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 /* 背景 */
@@ -68,7 +75,10 @@ h2 {
 }
 
 /* フォント */
-h2,h3,a,footer {
+h2,
+h3,
+a,
+footer {
     font-family: 'Futura';
 }
 
@@ -85,7 +95,7 @@ section {
     text-align: center;
 }
 
-.fadein{
+.fadein {
     opacity: 0;
     transform: translateY(20px);
     transition: all 1s;
@@ -151,6 +161,11 @@ section {
     padding-top: 50px;
 }
 
+#particles-js {
+    height: 100vw;
+    width: 100vw;
+}
+
 .courses {
     display: flex;
     justify-content: center;
@@ -198,7 +213,8 @@ section {
     width: 100%;
 }
 
-.slick-prev:before,.slick-next:before {
+.slick-prev:before,
+.slick-next:before {
     color: #000000;
     opacity: 1;
     background-color: #000;
