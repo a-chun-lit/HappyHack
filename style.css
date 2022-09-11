@@ -129,7 +129,6 @@ section {
     font-size: 16px;
     line-height: 32px;
     color: #333333;
-    overflow: wrap;
     text-align: left;
     padding: 20px;
     margin: 10px;
@@ -153,17 +152,11 @@ section {
 /* Course */
 #course {
     background-color: #D6E5F9;
-    position: relative;
     text-align: center;
 }
 
 #course h3 {
     padding-top: 50px;
-}
-
-#particles-js {
-    height: 100vw;
-    width: 100vw;
 }
 
 .courses {
@@ -201,6 +194,7 @@ section {
     padding: 10px 30px;
     margin: 30px 0;
     text-decoration: none;
+    z-index: 2;
 }
 
 /* Images */
