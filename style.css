@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 背景 */
+.bg-switcher {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/background1.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* ナビ */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav p {
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 30px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 27px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: #3D5CDB;
+    transition: 1s;
+}
+
+
+/* ロゴ */
+.bg-switcher img {
+    width: 900px;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 45px;
+    color: #fff;
+    margin: 30px;
+}
+
+/* フォント */
+h2,h3,a,footer {
+    font-family: 'Futura';
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 53px;
+    color: #3d5cdb;
+    margin: 40px;
+    overflow: hidden;
+}
+
+section {
+    text-align: center;
+}
+
+.fadein{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+
+/* Introduction */
+.intro-content {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.intro-content img,
+.intro-text {
+    min-width: 500px;
+    width: 500px;
+    margin: 20px;
+}
+
+.intro-content img {
+    height: auto;
+}
+
+.intro-text {
+    padding: 0 20px;
+}
+
+.intro-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    overflow: wrap;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+.intro-text a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.intro-content a:hover,
+.course-content a:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Course */
+#course {
+    background-color: #D6E5F9;
+    position: relative;
+    text-align: center;
+}
+
+#course h3 {
+    padding-top: 50px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10vw;
+}
+
+.course-content {
+    background-color: #fff;
+    width: 220px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.course-content img {
+    height: 90px;
+    margin: 50px 0 20px 0;
+}
+
+.course-content h4 {
+    font-size: 15px;
+    color: #183c61;
+    margin: 20px 0;
+}
+
+.course-content a {
+    font-size: 13px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 30px 0;
+    text-decoration: none;
+}
+
+/* Images */
+.slider {
+    margin: 50px 150px;
+    max-width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slick-prev:before,.slick-next:before {
+    color: #000000;
+    opacity: 1;
+    background-color: #000;
+}
+
+/* Access */
+iframe {
+    height: 400px;
+}
+
+#access {
+    margin-top: 120px;
+}
+
+footer {
+    font-family: "Futura";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    color: #3d5cdb;
+    text-align: center;
+    margin-top: 40px;
+}
