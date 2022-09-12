@@ -99,6 +99,12 @@ section {
     transition: all 1s;
 }
 
+.is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
 
 /* Introduction */
 .intro-content {

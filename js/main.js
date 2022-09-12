@@ -5,14 +5,16 @@ $(function($){
         loop: true
     });
 
-    $(window).scroll(function (){
-        var targetElement = $('.fadein').offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        if(scroll > targetElement - windowHeight + 200){
-            $('.fadein').css('opacity','1');
-            $('.fadein').css('transform', 'translateY(0)');
+    $(window).scroll(function () {
+      const windowHeight = $(window).height();
+      const scroll = $(window).scrollTop();
+  
+      $(".fadein").each(function () {
+        const targetPosition = $(this).offset().top;
+        if (scroll > targetPosition - windowHeight + 200) {
+          $(this).addClass("is-fadein");
         }
+      });
     });
 
     $('.slider').slick({
