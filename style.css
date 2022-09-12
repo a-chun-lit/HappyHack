@@ -171,6 +171,7 @@ section {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    z-index: 5;
 }
 
 .course-content img {
@@ -192,7 +193,6 @@ section {
     padding: 10px 30px;
     margin: 30px 0;
     text-decoration: none;
-    z-index: 2;
 }
 
 /* Images */
@@ -203,13 +203,13 @@ section {
 
 .slider img {
     width: 100%;
+    margin: 0 auto;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: #000000;
     opacity: 1;
-    background-color: #000;
+    background-color: #fff;
 }
 
 /* Access */
@@ -238,7 +238,7 @@ footer {
     nav {
         display: none;
     }
-    
+
     /* 背景 */
 
     .bg-switcher {

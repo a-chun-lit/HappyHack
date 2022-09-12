@@ -21,6 +21,13 @@ $(function($){
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
+
+        responsive:[{
+          breakpoint: 480,
+          settings:{
+            slidesToShow: 1,
+          }
+        }]
     });
 
 
@@ -122,5 +129,4 @@ $(function($){
         requestAnimationFrame(update);
       };
       requestAnimationFrame(update);
-      
 });
